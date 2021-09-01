@@ -21,7 +21,10 @@ def get_info_about_file(types_array, path):
         filename,file_extension  = os.path.splitext(file)
         file_extension = file_extension.upper()
         if file_extension == '':
-           get_info_about_file(types_array, path + os.sep + filename)      
+           result = get_info_about_file(types_array, path + os.sep + filename)      
+           unknown_types.union(result[0])
+           known_types.union(result[1])
+           info_about_file = {i: x + result[2][i] for i, x in info_about_file.items()}
         file_extension = file_extension[1:]
         for name_type, extension_type in types_array.items():
             if file_extension in extension_type:
@@ -30,6 +33,7 @@ def get_info_about_file(types_array, path):
                 break
         else:
             unknown_types.add(file_extension) 
+    return unknown_types, known_types, info_about_file
 
 
 
@@ -38,4 +42,7 @@ def main():
     path = easygui.diropenbox(msg= "Choose directory")
     #sys.argv[1]
     print(f"Start in {path}")
+    get_info_about_file(types_array, path)
 
+if __name__ == "__main__":
+    main()
