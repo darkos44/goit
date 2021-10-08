@@ -1,48 +1,27 @@
-import os
-import sys
-import easygui
+points = {
+    (0, 1): 2,
+    (0, 2): 3.8,
+    (0, 3): 2.7,
+    (1, 2): 2.5,
+    (1, 3): 4.1,
+    (2, 3): 3.9,
+}
 
 
-def initialization_array_of_types():
-    return {"image":('JPEG', 'PNG', 'JPG'),
-        "video":('AVI', 'MP4', 'MOV'), 
-        "doc":('DOC', 'DOCX', 'TXT'), 
-        "music":('MP3', 'OGG', 'WAV', 'AMR'), 
-        "desctop":('RDP'),
-        "archive": ('ZIP', 'GZ', 'TAR'),}
+def calculate_distance(coordinates):
+    len_coordinates = len(coordinates)
+    sum_distance = 0
+    if len_coordinates < 2:
+        return 0
+    for x in range(len_coordinates - 1):
+        list_for_tuple = list()
+        list_for_tuple.append(coordinates[x])
+        list_for_tuple.append(coordinates[x + 1])
+        points_tuple = tuple(sorted(list_for_tuple))
+        sum_distance += points.get(points_tuple, 0)
+        print(*list_for_tuple, sum_distance)
+    print(sum_distance)
+    return sum_distance
 
 
-def get_info_about_file(types_array, path):
-    files = os.listdir(path)
-    unknown_types = set()
-    known_types = set()
-    info_about_file = dict(zip(types_array.keys(), [list() for x in range(len(types_array))]))
-    for file in files:
-        filename,file_extension  = os.path.splitext(file)
-        file_extension = file_extension.upper()
-        if file_extension == '':
-           result = get_info_about_file(types_array, path + os.sep + filename)      
-           unknown_types.union(result[0])
-           known_types.union(result[1])
-           info_about_file = {i: x + result[2][i] for i, x in info_about_file.items()}
-        file_extension = file_extension[1:]
-        for name_type, extension_type in types_array.items():
-            if file_extension in extension_type:
-                info_about_file[name_type].append(filename)
-                known_types.add(file_extension)
-                break
-        else:
-            unknown_types.add(file_extension) 
-    return unknown_types, known_types, info_about_file
-
-
-
-def main():
-    types_array = initialization_array_of_types()
-    path = easygui.diropenbox(msg= "Choose directory")
-    #sys.argv[1]
-    print(f"Start in {path}")
-    get_info_about_file(types_array, path)
-
-if __name__ == "__main__":
-    main()
+calculate_distance([0, 1, 3, 2, 0, 2])
