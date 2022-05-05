@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6c33f0-d284-4085-afed-48047e323a0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Py6Core" beforeDir="false" afterPath="$PROJECT_DIR$/main/Py6Core" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Py6Core/m06_02/file_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Py6Core/m06_02/file_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Py6Core/m06_02/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Py6Core/m06_02/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/Py6Core/m06_02/normalize.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/Py6Core/m06_02/normalize.py" afterDir="false" />
-    </list>
+    <list default="true" id="1b6c33f0-d284-4085-afed-48047e323a0c" name="Default Changelist" comment="week 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +9,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28TtRmuOiRkX02N1GhSfIu24uwe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,6 +35,21 @@
       <option name="presentableId" value="Default" />
       <updated>1651252427321</updated>
     </task>
+    <task id="LOCAL-00001" summary="week 7">
+      <created>1651766465571</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651766465571</updated>
+    </task>
+    <task id="LOCAL-00002" summary="week 7">
+      <created>1651766639347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651766639347</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -50,5 +62,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="week 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="week 7" />
   </component>
 </project>
