@@ -55,14 +55,16 @@ FUNC_DICT = {
 
 
 def main():
-    say = input("Enter command:")
+    say = input("Enter command:\n")
     exit_frase = (
         'good bye',
         'close',
         'exit',
         '.',
     )
-    while not say.lower() in exit_frase:
+    while True:
+        if say.lower() in exit_frase:
+            break
         command = say.split(' ')
         if len(command) == 0:
             print('You entered nothing')
@@ -74,13 +76,12 @@ def main():
         try:
             if func_name.lower() != 'show' and func_name.lower() != 'hello':
                 name = command[1]
-            if func_name.lower() == 'add' or func_name.lower() == 'change':
+            elif func_name.lower() == 'add' or func_name.lower() == 'change':
                 phone = command[2]
-            if func_name.lower() == 'show' and len(command) >= 2:
+            elif func_name.lower() == 'show' and len(command) >= 2:
                 func_name = func_name + ' ' + command[1]
         except IndexError:
             print('Give me name and/or phone please')
-            say = input("Enter command: ")
             continue
 
         try:
