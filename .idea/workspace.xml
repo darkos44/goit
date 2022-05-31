@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b6c33f0-d284-4085-afed-48047e323a0c" name="Default Changelist" comment="dz 9">
-      <change afterPath="$PROJECT_DIR$/10 week/dz 10/bot_helper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10 week/dz 10/classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10 week/dz 10/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9 week/dz 9/bot_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/9 week/dz 9/bot_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 week/dz 10/bot_helper.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
       <recent name="D:\pythonProject\goit\7 week\m07_01" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bot_helper">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="bot_helper (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="goit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +115,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="goit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/10 week/dz 10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10 week/dz 10/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="goit" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,6 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.bot_helper" />
         <item itemvalue="Python.bot_helper (1)" />
         <item itemvalue="Python.congratulate" />
@@ -195,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653418753452</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dz 9">
+      <created>1653846101132</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653846101132</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,11 +251,18 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/10 week/dz 10/bot_helper.py</url>
-          <line>77</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/10 week/dz 10/main.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
