@@ -1,4 +1,4 @@
-from classes import AddressBook, Record
+from classes import AddressBook, Record, Name, Phone
 
 CONTACT = AddressBook()
 
@@ -18,13 +18,13 @@ def main():
             say = input("Enter command: ")
             continue
         func_name = command[0]
-        phone = ''
-        name = ''
+        phone_str = ''
+        name_str = ''
         try:
             if func_name.lower() != 'show' and func_name.lower() != 'hello':
-                name = command[1]
+                name_str = command[1]
             if func_name.lower() == 'add' or func_name.lower() == 'change':
-                phone = command[2]
+                phone_str = command[2]
             if func_name.lower() == 'show' and len(command) >= 2:
                 func_name = func_name + ' ' + command[1]
         except IndexError:
@@ -34,15 +34,18 @@ def main():
         if func_name == 'hello':
            print('How can I help you?')
         elif func_name == 'add':
-            record = Record(name, adr=phone)
+            name = Name(name_str)
+            phone = Phone(phone_str)
+            record = Record(name, phone)
             CONTACT.add_record(record)
         elif func_name == 'change':
-            record = CONTACT.find_record(name)
+            record = CONTACT.find_record(name_str)
             if record != 1:
-                record.delete_address(phone)
+                record.delete_address(phone_str)
+                phone = Phone(phone_str)
                 record.add_address(phone)
         elif func_name == 'phone':
-            record = CONTACT.find_record(name)
+            record = CONTACT.find_record(name_str)
             if record != 1:
                 print(record.get_phone())
             else:

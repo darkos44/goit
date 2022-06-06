@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6c33f0-d284-4085-afed-48047e323a0c" name="Default Changelist" comment="dz 9">
-      <change afterPath="$PROJECT_DIR$/10 week/dz 10/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10 week/dz 10/main.py" afterDir="false" />
+    <list default="true" id="1b6c33f0-d284-4085-afed-48047e323a0c" name="Default Changelist" comment="dz 10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10 week/dz 10/bot_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 week/dz 10/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 week/dz 10/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10 week/dz 10/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/10 week/dz 10/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/pythonProject/goit/10 week/dz 10&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/pythonProject/goit",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\pythonProject\goit\10 week\dz 10" />
@@ -225,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653846101132</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dz 10">
+      <created>1654008918397</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1654008918397</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,17 +251,11 @@
     <MESSAGE value="week 07 - 02: dz 7" />
     <MESSAGE value="dz 8" />
     <MESSAGE value="dz 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="dz 9" />
+    <MESSAGE value="dz 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/10 week/dz 10/main.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

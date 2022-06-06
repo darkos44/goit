@@ -16,19 +16,17 @@ class Phone(Field):
         super().__init__(phone)
 
 
-
-
 class Record:
-    def __init__(self, name: str, adr=''):
-        self.Name = Name(name)
+    def __init__(self, name: Name, adr: Phone):
+        self.Name = name
         self.Phones = []
         if adr != '':
             self.add_address(adr)
 
-    def add_address(self, adr: str):
-        self.Phones.append(Phone(adr))
+    def add_address(self, adr: Phone):
+        self.Phones.append(adr)
 
-    def delete_address(self, adr: str):
+    def delete_address(self, adr: Phone):
         for i in range(len(self.Phones)):
             self.Phones.pop()
 
@@ -40,7 +38,7 @@ class Record:
             result += phone.value
         return result
 
-    def change_addres(self, adr: str):
+    def change_address(self, adr: str):
         for i in range(len(self.Phones)):
             if self.Phones[i].value == adr:
                 self.Phones[i].value = adr
