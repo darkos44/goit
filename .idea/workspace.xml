@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b6c33f0-d284-4085-afed-48047e323a0c" name="Default Changelist" comment="dz 11.">
-      <change afterPath="$PROJECT_DIR$/12 week/dz 12/classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12 week/dz 12/data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12 week/dz 12/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1b6c33f0-d284-4085-afed-48047e323a0c" name="Default Changelist" comment="dz 12.">
+      <change beforePath="$PROJECT_DIR$/12 week/dz 12/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/12 week/dz 12/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12 week/dz 12/data.bin" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655295609347</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="dz 12.">
+      <created>1655296966725</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655296966725</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,14 +276,15 @@
     <MESSAGE value="dz 10" />
     <MESSAGE value="dz 10. v-2" />
     <MESSAGE value="dz 11." />
-    <option name="LAST_COMMIT_MESSAGE" value="dz 11." />
+    <MESSAGE value="dz 12." />
+    <option name="LAST_COMMIT_MESSAGE" value="dz 12." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/12 week/dz 12/classes.py</url>
-          <line>136</line>
+          <line>137</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>

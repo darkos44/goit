@@ -133,12 +133,15 @@ class AddressBook(UserDict):
             pickle.dump(self.data, f)
 
     def load_data(self):
-        with open('data.bin', 'rb') as f:
-            try:
-                data = pickle.load(f)
-                self.data = data
-            except EOFError:
-                print('File data is empty')
+        try:
+            with open('data.bin', 'rb') as f:
+                try:
+                    data = pickle.load(f)
+                    self.data = data
+                except EOFError:
+                    print('File data is empty')
+        except FileNotFoundError:
+            print('File data is empty')
 
     def find_all(self, value):
         result = ''
